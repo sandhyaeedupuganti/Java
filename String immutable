@@ -1,0 +1,12 @@
+import java.io.*;
+import java.lang.String;
+public class StringImmutableDemo{
+    public static void main(String args[]){
+        String s1="Sandhya";
+        s1.concat("Eedupuganti");
+        System.out.println("String s1 is "+s1);
+        String s2="Sandhya";
+        String s3=s2.concat(" Eedupuganti");
+        System.out.println("String s3 is "+s3);
+    }
+}
